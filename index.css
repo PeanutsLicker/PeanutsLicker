@@ -2,3 +2,13 @@
     background-color: red;
     text-align: center;
 }
+
+#content {
+    background-color: blue;
+    text-align: right;
+}
+
+#footer {
+    background-color: yellowgreen;
+    text-align: center;
+}
