@@ -4,9 +4,11 @@
 }
 
 body {
-    background-color: black;
+    background-color: skyblue;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    margin-right: 4vh;
+    margin-left: 4vh;
 }
 
 #container {
@@ -15,7 +17,7 @@ body {
 }
 
 #header {
-    background-color: red;
+    background-color: blue;
     text-align: center;
     height: 20vh;
     grid-column-start: 1;
@@ -23,15 +25,15 @@ body {
 }
 
 #content {
-    background-color: blue;
+    background-color: green;
     text-align: left;
-    height: 70vh;
+    height: 74vh;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
 #menu {
-    background-color: fuchsia;
+    background-color: aqua;
     grid-row-start: 2;
     grid-row-end: 3;
 }
@@ -40,7 +42,7 @@ body {
     background-color: yellowgreen;
     text-align: center;
     align: center;
-    height: 8vh;
+    height: 4vh;
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 3;
