@@ -19,7 +19,7 @@ body {
 #header {
     background-color: blue;
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -27,7 +27,7 @@ body {
 #content {
     background-color: green;
     text-align: left;
-    height: 74vh;
+    height: 85vh;
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -42,7 +42,8 @@ body {
     background-color: yellowgreen;
     text-align: center;
     align: center;
-    height: 4vh;
+    font-size: 0.75em;
+    height: 3vh;
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 3;
