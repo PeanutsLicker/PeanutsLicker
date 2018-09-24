@@ -1,4 +1,54 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: skyblue;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 4vh;
+    margin-left: 4vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
 #header {
-    background-color: red;
+    background-color: blue;
     text-align: center;
+    height: 10vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#content {
+    background-color: green;
+    text-align: left;
+    height: 85vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#menu {
+    background-color: aqua;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#footer {
+    background-color: yellowgreen;
+    text-align: center;
+    align: center;
+    font-size: 0.75em;
+    height: 3vh;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+div:not(#container) > * {
+    padding: 1vh;
 }
