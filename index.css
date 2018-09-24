@@ -7,8 +7,8 @@ body {
     background-color: skyblue;
     margin-top: 1vh;
     margin-bottom: 1vh;
-    margin-right: 4vh;
-    margin-left: 4vh;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
 }
 
 #container {
@@ -19,7 +19,7 @@ body {
 #header {
     background-color: blue;
     text-align: center;
-    height: 10vh;
+    height: 12vh;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -27,7 +27,7 @@ body {
 #content {
     background-color: green;
     text-align: left;
-    height: 85vh;
+    height: 81.5vh;
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -43,7 +43,7 @@ body {
     text-align: center;
     align: center;
     font-size: 0.75em;
-    height: 3vh;
+    height: 4vh;
     grid-row-start: 3;
     grid-column-start: 1;
     grid-column-end: 3;
